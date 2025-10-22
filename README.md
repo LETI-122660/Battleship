@@ -1,3 +1,3 @@
-# Battleship Game
+# Battleship
 
-Basic academic version to build upon.
+Basic academic version of Battleship game to build upon.
