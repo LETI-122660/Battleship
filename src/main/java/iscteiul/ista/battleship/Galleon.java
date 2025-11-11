@@ -13,9 +13,9 @@ public class Galleon extends Ship {
      */
     public Galleon(Compass bearing, IPosition pos) throws IllegalArgumentException {
         super(Galleon.NAME, bearing, pos);
-
-        if (bearing == null)
-            throw new NullPointerException("ERROR! invalid bearing for the galleon");
+        //o super já está a tratar do null
+        //if (bearing == null)
+            //throw new NullPointerException("ERROR! invalid bearing for the galleon");
 
         switch (bearing) {
             case NORTH:
