@@ -27,6 +27,9 @@ public class Game implements IGame {
         shots = new ArrayList<>();
         countInvalidShots = 0;
         countRepeatedShots = 0;
+        // hits and sinks
+        countHits = 0;
+        countSinks = 0;
         this.fleet = fleet;
     }
 
@@ -38,18 +41,18 @@ public class Game implements IGame {
     @Override
     public IShip fire(IPosition pos) {
         if (!validShot(pos))
-            countInvalidShots++;
+            this.countInvalidShots++;
         else { // valid shot!
             if (repeatedShot(pos))
-                countRepeatedShots++;
+                this.countRepeatedShots++;
             else {
                 shots.add(pos);
                 IShip s = fleet.shipAt(pos);
                 if (s != null) {
                     s.shoot(pos);
-                    countHits++;
+                    this.countHits++;
                     if (!s.stillFloating()) {
-                        countSinks++;
+                        this.countSinks++;
                         return s;
                     }
                 }
