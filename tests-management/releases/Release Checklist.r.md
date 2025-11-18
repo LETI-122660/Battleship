@@ -3,7 +3,7 @@
 ## Testing Checklists
 
 ### Automated Tests Checklist
-* [passed] C2 Unit tests
+* [passed] C2 Unit tests @Guilherme
 
 
 ### Release Checklist
