@@ -3,40 +3,40 @@
 ## Testing Checklists
 
 ### Automated Tests Checklist
-* [unknown] C2 Unit tests
+* [passed] C2 Unit tests
 
 
 ### Release Checklist
-* [unknown] C1 Reports
+* [passed] C1 Reports @Guilherme
 
 
 ## Unit Tests
 
 ### Compass Test
-* [unknown] C9 CompassTest
+* [passed] C9 CompassTest @Guilherme
 
 
 ### Fleet Test
-* [unknown] C10 FleetTest
+* [passed] C10 FleetTest @Guilherme 
 
 
 ### Game Test
-* [unknown] C11 GameTest
+* [passed] C11 GameTest @Guilherme
 
 
 ### Position Test
-* [unknown] C8 PositionTest
+* [passed] C8 PositionTest @Guilherme
 
 
 ### Ships Test
-* [unknown] C3 BargeTest
+* [passed] C3 BargeTest @Guilherme
 
-* [unknown] C4 CaravelTest
+* [passed] C4 CaravelTest @Guilherme
 
-* [unknown] C5 CarrackTest
+* [passed] C5 CarrackTest @Guilherme
 
-* [unknown] C6 FrigateTest
+* [passed] C6 FrigateTest @Guilherme
 
-* [unknown] C7 GalleonTest
+* [passed] C7 GalleonTest @Guilherme
 
 
